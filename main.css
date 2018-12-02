@@ -1,0 +1,119 @@
+html, body{
+    margin:0;
+    padding:0;
+    height: 100vh;
+}
+
+.backgroundImage{
+    height: 100vh;
+    margin: auto; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.185)), url(/images/Background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(51, 51, 51, 0.24);
+    position: fixed;
+    top: 0;
+    justify-content: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+h1{
+  padding-top: 40px;
+  padding-left: 50px;
+  font-size: 200%;
+  color: white;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;  
+}
+.aboutFlex h1{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 200%;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;  
+  
+}
+
+h2{
+    padding-top: 40px;
+    padding-left: 50px;
+    font-size: 200%;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+.aboutDiv{
+    height: 100vh;
+    border: solid purple;
+    /* display: flex; */
+}
+
+.aboutFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.cont1{
+    display: flex;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.61);
+    height: 300px;
+    width: 300px;
+}
+
+.cont2{
+    display: flex;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.61);
+    height: 300px;
+    width: 300px;
+}
+
+.cont3{
+    display: flex;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.61);
+    height: 300px;
+    width: 300px;
+}
+
+.createDiv{
+    height: 100vh;
+    border: solid purple;
+}
+
+.contactDiv{
+    height: 100vh;
+}
