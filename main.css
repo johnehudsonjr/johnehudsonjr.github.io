@@ -68,6 +68,19 @@ h1{
     line-height: normal;  
   
 }
+.createFlex h1{
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 200%;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;  
+  
+}
 
 
 h2{
