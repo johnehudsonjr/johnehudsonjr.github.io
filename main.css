@@ -94,7 +94,7 @@ h2{
     justify-content: space-around;
 }
 
-.contactFlex{
+.connectFlex{
     display: flex;
     justify-content: space-around;
 }
@@ -126,6 +126,10 @@ h2{
     border: solid purple;
 }
 
-.contactDiv{
+.connectDiv{
     height: 100vh;
+}
+
+a:hover{
+    box-shadow: -6px -4px 63px 2px rgba(0,0,0,0.75);
 }
